@@ -4,12 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
-@MapperScan(basePackages = {"com.zuzuche"})
+@MapperScan(basePackages = {"per.nonlone"})
 @SpringBootApplication
-public class StressTestApplication {
+public class TestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StressTestApplication.class, args);
+        SpringApplication.run(TestApplication.class, args);
     }
 
 }
