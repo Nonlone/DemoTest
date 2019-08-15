@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Date;
 
 @Table(name="test")
 @Data
@@ -16,8 +17,8 @@ public class TestA {
 
     private String value;
 
-    private String timestamp;
+    private Date timestamp;
 
-    private String createTime;
+    private Date createTime;
 
 }

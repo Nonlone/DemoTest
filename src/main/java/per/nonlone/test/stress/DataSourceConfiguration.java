@@ -31,7 +31,7 @@ public class DataSourceConfiguration implements EnvironmentAware {
 
     private static final String DEFAULT_PROPERTIES_PREFIX = "mysql";
 
-    private static final String DEFAULT_DATASOURCE_KEY = "oms";
+    private static final String DEFAULT_DATASOURCE_KEY = "testa";
 
     private static final String DEFAULT_CONNECTION_PROPERTIES = "druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;druid.keepAlive=true";
 

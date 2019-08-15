@@ -5,7 +5,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 
 @Data
-public class QueryByOrderIdRequest {
+public class QueryRequest {
 
     @NotBlank(message = "订单Id不能为空")
     private String orderId;
